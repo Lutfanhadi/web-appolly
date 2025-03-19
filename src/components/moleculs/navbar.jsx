@@ -11,9 +11,9 @@ export const Navbar = () => {
             Download
           </button>
         </div>
-        <div className="absolute top-6 left-1/2 transform -translate-x-1/2 flex items-center w-fit py-6 px-2.5 bg-white rounded-lg">
+        <div className="absolute top-7 left-1/2 transform -translate-x-1/2 flex items-center w-fit py-5 px-1.5 bg-white rounded-lg">
           <img className="h-9" src={Logo} alt="logo appolly" />
-          <h1 className="font-bold text-xl">APPOLLY</h1>
+          <h1 className="font-bold text-lg">APPOLLY</h1>
         </div>
       </nav>
     );
