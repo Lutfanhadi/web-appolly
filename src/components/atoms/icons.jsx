@@ -79,7 +79,7 @@ export const Phone = () => {
 export const Menu = () => {
     return (
       <svg
-        className="w-6"
+        className="w-6 block lg:hidden"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
