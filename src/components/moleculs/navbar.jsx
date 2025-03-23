@@ -4,7 +4,7 @@ import { Menu } from "../atoms/icons";
 
 const Navbar = () => {
     return (
-      <nav className="relative px-4 pt-10 md:px-10 lg:px-[135px]">
+      <nav className="relative px-4 pt-10 md:px-10 lg:px-[135px] font-lato">
         <div className="flex items-center justify-between bg-white p-2 rounded-sm text-xl font-medium pl-2 lg:pl-12">
           <div>
             <Menu />

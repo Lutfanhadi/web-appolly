@@ -9,10 +9,10 @@ import {
 
 const SosialMedia = () => {
   return (
-    <div className="hidden text-white text-lg md:flex justify-between px-10 pt-6 lg:px-[135px]">
+    <div className="font-lato hidden text-white text-lg md:flex justify-between px-10 pt-6 lg:px-[135px]">
       <div className="flex gap-12">
         <div className="flex gap-4">
-          <Email />
+          <Email/>
           <p>info@youremail.com</p>
         </div>
         <div className="flex gap-4">
