@@ -33,7 +33,7 @@ const CheckoutSetion = () => {
             alt="img caraousel"
           />
         </div>
-        <div className="mt-14 flex flex-col md:flex-row md:items-center md:mx-10 lg:mt-20 lg:mx-[135px] lg:items-end">
+        <div className="mt-14 flex flex-col md:flex-row md:items-center md:mx-10 md:justify-between lg:mt-20 lg:mx-[135px] lg:items-end">
           <div className="w-full md:w-[50%] lg:w-[50%]">
             <TitleParent
               text={false}

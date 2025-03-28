@@ -15,7 +15,7 @@ const HeroSection = () => {
             <div className="relative w-11/12 ml-auto h-[358px] bg-secondary p-3 md:ml-full lg:h-[435px]">
               <div className="w-full h-full bg-primary"></div>
               <div className="absolute top-1/2 -translate-y-1/2 right-5 w-full h-[89%] py-5 px-4 bg-white md:right-8 md:h-[83%] lg:right-12 lg:h-[80%]">
-                <h1 className="text-primary text-xl font-bold w-[82%] mb-4 uppercase md:w-[88%] md:text-2xl lg:text-3xl lg:w-4/5">
+                <h1 className="text-primary text-xl font-bold w-[82%] mb-4 uppercase md:w-[82%] md:text-2xl lg:text-3xl lg:w-4/5">
                   A Great App Makes Your Life Better
                 </h1>
                 <p className="text-heading text-[16px] font-normala mb-3 lg:text-lg lg:mb-6">
