@@ -18,23 +18,23 @@ const CheckoutSetion = () => {
         />
         <div className="flex items-center gap-20 w-min-[400px] overflow-x-scroll px-20 mt-14 md:gap-0 md:justify-between md:w-min-[100%] md:overflow-x-visible md:px-0 md:mx-10 lg:mx-[135px] lg:justify-around">
           <img
-            className="drop-shadow-xl h-[444px]"
-            src={ImgCarousel1}
-            alt="img caraousel"
-          />
-          <img
-            className="drop-shadow-xl h-[444px]"
+            className="drop-shadow-xl w-[227px]"
             src={ImgCarousel2}
             alt="img caraousel"
           />
           <img
-            className="drop-shadow-xl h-[444px]"
+            className="drop-shadow-xl w-[227px]"
+            src={ImgCarousel1}
+            alt="img caraousel"
+          />
+          <img
+            className="drop-shadow-xl w-[227px]"
             src={ImgCarousel3}
             alt="img caraousel"
           />
         </div>
         <div className="mt-14 flex flex-col md:flex-row md:items-center md:mx-10 lg:mt-20 lg:mx-[135px] lg:items-end">
-          <div className="w-full md:w-[60%] lg:w-[50%]">
+          <div className="w-full md:w-[50%] lg:w-[50%]">
             <TitleParent
               text={false}
               title={"Download App Now"}

@@ -30,7 +30,7 @@ const AppFeaturesSection = () => {
           </div>
 
           {/* tablet dan leptop */}
-          <div className="relative md:grid grid-cols-3 md:gap-[70px] mt-8 mx-10 hidden lg:gap-24 lg:mx-[135px]">
+          <div className="relative md:grid grid-cols-3 md:gap-[85px] mt-8 md:mx-10 hidden lg:gap-24 lg:mx-[135px]">
             <div className="col-start-2">
               <Comment />
             </div>
