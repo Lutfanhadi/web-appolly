@@ -7,7 +7,7 @@ const AppFeaturesSection = () => {
       <section>
         <div className="w-full h-fit bg-[url(/img/Background-img.png)] bg-cover bg-center py-20 md:py-28">
           <TitleParent
-            text={false}
+            textColor={false}
             title={"App features"}
             paragraf={
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae."
