@@ -11,20 +11,22 @@ const ParentOurReativeTeam = ({ img, name, job, description }) => {
         />
       </div>
       <div className="mt-16">
-        <h1 className="text-3xl uppercase font-bold text-[#232233] md:text-xl">{name}</h1>
-        <h2 className="text-xl uppercase font-semibold text-[#6C6C72] md:text-lg">
+        <h1 className="text-3xl uppercase font-bold text-[#232233] md:text-xl lg:text-3xl">
+          {name}
+        </h1>
+        <h2 className="text-xl uppercase font-semibold text-[#6C6C72] md:text-lg lg:text-xl">
           {job}
         </h2>
         <p className="mt-3.5 text-[16px] text-[#6C6C72]">{description}</p>
       </div>
       <div className="flex items-center mt-7 justify-around">
-        <div className="border-r-2 border-black pr-7 md:pr-3.5">
+        <div className="border-r-2 border-black pr-7 md:pr-3.5 lg:pr-7">
           <Facebook />
         </div>
-        <div className="border-r-2 border-black pr-7 md:pr-3.5">
+        <div className="border-r-2 border-black pr-7 md:pr-3.5 lg:pr-7">
           <Instagram />
         </div>
-        <div className="border-r-2 border-black pr-7 md:pr-3.5">
+        <div className="border-r-2 border-black pr-7 md:pr-3.5 lg:pr-7">
           <Twitter />
         </div>
         <div>

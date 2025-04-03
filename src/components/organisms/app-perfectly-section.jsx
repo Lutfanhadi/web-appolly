@@ -10,7 +10,7 @@ import {
 const AppPerfectlySetion = () => {
   return (
     <section>
-      <div className="relative bg-[url(/img/Background-img.png)] w-full h-fit bg-cover bg-center pt-20 pb-[150px] md:pb-[170px]">
+      <div className="relative bg-[url(/img/Background-img.png)] w-full h-fit bg-cover bg-center pt-20 pb-[130px] md:pb-[190px] lg:pb-[220px]">
         <TitleParent
           textColor={false}
           title={"how to use the app perfectly"}
@@ -18,12 +18,16 @@ const AppPerfectlySetion = () => {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus."
           }
         />
-        <div className="absolute -bottom-[17%] md:-bottom-[26.40%] right-1/2 translate-x-1/2 w-full h-[150px] md:w-[570px] md:h-[231px]">
-          <div className="relative">
-            <img className="rounded-xl" src={ImgVideo} alt="img video" />
+        <div className="absolute -bottom-[17%] md:-bottom-[24%] left-1/2 -translate-x-1/2 w-full h-[150px] md:w-[570px] md:h-[231px] lg:-bottom-[40%] lg:w-[770px] lg:h-[319px]">
+          <div className="relative px-4 md:px-0">
+            <img
+              className="rounded-xl h-[150px] md:h-[231px] lg:w-[770px] lg:h-[319px]"
+              src={ImgVideo}
+              alt="img video"
+            />
             <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
               <img
-                className="w-[18px] h-[18px] md:w-[40px] md:h-[40px]"
+                className="w-[30px] h-[30px] md:w-[40px] md:h-[40px] lg:w-[60px] lg:h-[60px]"
                 src={SvgVideo}
                 alt="svg video"
               />
@@ -31,7 +35,7 @@ const AppPerfectlySetion = () => {
           </div>
         </div>
       </div>
-      <div className="mt-28 md:mt-52">
+      <div className="mt-28 md:mt-44 lg:mt-60">
         <TitleParent
           title={"Our reative team"}
           paragraf={
@@ -39,7 +43,7 @@ const AppPerfectlySetion = () => {
           }
         />
       </div>
-      <div className="mt-10 mx-4 flex flex-col gap-7 md:flex-row md:mx-10">
+      <div className="mt-10 mx-4 flex flex-col gap-7 md:flex-row md:mx-10 lg:mx-[135px]">
         <CardParentOurReativeTeam1 />
         <CardParentOurReativeTeam2 />
         <CardParentOurReativeTeam3 />
