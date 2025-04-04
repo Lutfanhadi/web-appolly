@@ -43,7 +43,7 @@ const AppPerfectlySetion = () => {
           }
         />
       </div>
-      <div className="mt-10 mx-4 flex flex-col gap-7 md:flex-row md:mx-10 lg:mx-[135px]">
+      <div className="mt-10 mx-4 flex flex-col gap-7 pb-20 md:pb-28 md:flex-row md:mx-10 lg:mx-[135px]">
         <CardParentOurReativeTeam1 />
         <CardParentOurReativeTeam2 />
         <CardParentOurReativeTeam3 />
