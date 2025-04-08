@@ -4,7 +4,7 @@ import { CardOurHappyCustomers } from "../moleculs/card-our-happy-customers";
 const OurHappyCustomersSetion = () => {
     return (
       <section>
-        <div className="bg-[url(/img/Background-img.png)] py-20 bg-cover bg-center">
+        <div className="bg-[url(/img/Background-img.png)] py-20 bg-cover bg-center md:py-28">
           <TitleParent
             textColor={false}
             title={"Our Happy Customers"}

@@ -10,7 +10,7 @@ import {
 const AppPerfectlySetion = () => {
   return (
     <section>
-      <div className="relative bg-[url(/img/Background-img.png)] w-full h-fit bg-cover bg-center pt-20 pb-[130px] md:pb-[190px] lg:pb-[220px]">
+      <div className="relative bg-[url(/img/Background-img.png)] w-full h-fit bg-cover bg-center pt-20 md:pt-28 pb-[130px] md:pb-[190px] lg:pb-[220px]">
         <TitleParent
           textColor={false}
           title={"how to use the app perfectly"}

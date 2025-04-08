@@ -8,6 +8,7 @@ import CheckoutSetion from './components/organisms/checkout-section'
 import AppPerfectlySetion from './components/organisms/app-perfectly-section'
 import OurHappyCustomersSetion from './components/organisms/our-happy-customers'
 import OurRecentBlogSection from './components/organisms/our-recent-blog-section'
+import { Footer } from './components/organisms/footer'
 
 
 createRoot(document.getElementById('root')).render(
@@ -19,5 +20,6 @@ createRoot(document.getElementById('root')).render(
     <AppPerfectlySetion/>
     <OurHappyCustomersSetion/>
     <OurRecentBlogSection/>
+    <Footer/>
   </StrictMode>,
 )

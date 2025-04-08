@@ -5,7 +5,7 @@ const ParentOurReativeTeam = ({ img, name, job, description }) => {
     <div className="bg-white drop-shadow-lg rounded-xl text-center py-10 px-4">
       <div>
         <img
-          className="outline-2 outline-offset-8 outline-dashed rounded-full w-fit h-fit mx-auto outline-primary md:w-40 md:h-40"
+          className="outline-4 outline-offset-8 outline-dashed rounded-full w-fit h-fit mx-auto outline-primary md:w-40 md:h-40"
           src={img}
           alt="img card"
         />
