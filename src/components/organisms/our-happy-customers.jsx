@@ -12,7 +12,7 @@ const OurHappyCustomersSetion = () => {
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae."
             }
           />
-          <div className="flex items-center overflow-x-scroll overscroll-x-none mt-8 md:mt-10 lg:mt-16">
+          <div className="flex items-center max-w-6xl mx-auto overflow-x-scroll overscroll-x-none mt-8 md:mt-10 lg:mt-16">
             <div className="min-w-full">
                 <CardOurHappyCustomers />
             </div>

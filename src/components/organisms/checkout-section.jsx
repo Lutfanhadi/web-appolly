@@ -16,7 +16,7 @@ const CheckoutSetion = () => {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae."
           }
         />
-        <div className="flex items-center gap-20 w-min-[400px] overflow-x-scroll px-20 mt-14 md:gap-0 md:justify-between md:w-min-[100%] md:overflow-x-visible md:px-0 md:mx-10 lg:mx-[135px] lg:justify-around">
+        <div className="flex items-center max-w-6xl mx-auto gap-20 w-min-[400px] overflow-x-scroll px-20 mt-14 md:gap-0 md:justify-between md:w-min-[100%] md:overflow-x-visible md:px-10 lg:justify-around">
           <img
             className="drop-shadow-xl w-[227px]"
             src={ImgCarousel2}
@@ -33,7 +33,7 @@ const CheckoutSetion = () => {
             alt="img caraousel"
           />
         </div>
-        <div className="mt-14 flex flex-col md:flex-row md:items-center md:mx-10 md:justify-between lg:mt-20 lg:mx-[135px] lg:items-end">
+        <div className="mt-14 flex flex-col max-w-6xl mx-auto md:flex-row md:items-center md:px-10 md:justify-between lg:mt-20 lg:items-end">
           <div className="w-full md:w-[50%] lg:w-[50%]">
             <TitleParent
               text={false}

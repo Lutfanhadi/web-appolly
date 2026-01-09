@@ -9,7 +9,7 @@ import {
 
 const SosialMedia = () => {
   return (
-    <div className="font-lato hidden text-white text-lg md:flex justify-between px-10 pt-6 lg:px-[135px]">
+    <div className="font-lato hidden text-white text-lg max-w-6xl mx-auto md:flex justify-between px-10 pt-6">
       <div className="flex gap-12">
         <div className="flex gap-4">
           <Email/>

@@ -10,7 +10,7 @@ const OurRecentBlogSection = () => {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae."
           }
         />
-        <div className="flex flex-col gap-10 mt-10 mx-4 md:mx-10 md:flex-row md:gap-6 lg:mx-[135px]">
+        <div className="flex flex-col max-w-6xl mx-auto gap-10 mt-10 px-4 md:px-10 md:flex-row md:gap-6">
           <CardOurRecentBlog1 />
           <CardOurRecentBlog2 />
           <CardOurRecentBlog3 />

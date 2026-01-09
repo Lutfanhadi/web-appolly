@@ -13,7 +13,7 @@ const AboutSection = () => {
           }
         />
 
-        <div className="mt-10 mx-4 flex flex-col gap-10 md:flex-row md:gap-14 md:mx-10 md:items-center md:mt-20 lg:mx-[135px]">
+        <div className="mt-10 max-w-6xl mx-auto px-4 flex flex-col gap-10 md:flex-row md:gap-14 md:px-10 md:items-center md:mt-20">
           <img
             className="h-[356px] w-fit mx-auto lg:h-[526px]"
             src={AppDesign}

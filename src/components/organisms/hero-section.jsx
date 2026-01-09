@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="w-full h-fit bg-[url(/img/Background-img.png)] bg-cover bg-center">
         <SosialMedia />
         <Navbar />
-        <div className="flex flex-col gap-10 py-24 mx-4 md:mx-10 md:flex-row md:items-end md:gap-24 md:py-[240px] lg:py-16 lg:mx-[135px] lg:gap-44">
+        <div className="flex flex-col gap-10 max-w-6xl mx-auto py-24 px-4 md:px-10 md:flex-row md:items-end md:gap-24 md:py-[240px] lg:py-16 lg:gap-44">
           <div className="md:w-[55%] lg:w-[50%]">
             <div className="relative w-11/12 ml-auto h-[358px] bg-secondary p-3 md:ml-full lg:h-[435px]">
               <div className="w-full h-full bg-primary"></div>

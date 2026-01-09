@@ -18,10 +18,10 @@ const AppPerfectlySetion = () => {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus."
           }
         />
-        <div className="absolute -bottom-[17%] md:-bottom-[24%] left-1/2 -translate-x-1/2 w-full h-[150px] md:w-[570px] md:h-[231px] lg:-bottom-[40%] lg:w-[770px] lg:h-[319px]">
-          <div className="relative px-4 md:px-0">
+        <div className="absolute -bottom-[17%] left-0 right-0 w-full md:-bottom-[24%] lg:-bottom-[40%] max-w-5xl mx-auto">
+          <div className="relative px-4">
             <img
-              className="rounded-xl h-[150px] md:h-[231px] lg:w-[770px] lg:h-[319px]"
+              className="mx-auto rounded-xl h-[150px] md:h-[231px] lg:w-[770px] lg:h-[319px]"
               src={ImgVideo}
               alt="img video"
             />
@@ -43,7 +43,7 @@ const AppPerfectlySetion = () => {
           }
         />
       </div>
-      <div className="mt-10 mx-4 flex flex-col gap-7 pb-20 md:pb-28 md:flex-row md:mx-10 lg:mx-[135px]">
+      <div className="mt-10 max-w-6xl mx-auto px-4 flex flex-col gap-7 pb-20 md:pb-28 md:flex-row md:px-10">
         <CardParentOurReativeTeam1 />
         <CardParentOurReativeTeam2 />
         <CardParentOurReativeTeam3 />
