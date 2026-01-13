@@ -1,17 +1,40 @@
 import { Menu } from "lucide-react";
 import Logo from "../../../public/img/logo-appolly.png"
+import { useEffect, useState } from "react";
+import StickyNavbar from "./StickyNavbar";
 
 
 const Navbar = ({ menuCLik }) => {
+  const [showSticky, setShowSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 120) {
+        setShowSticky(true);
+      } else {
+        setShowSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+
+  
   return (
+    <div>
+
+      {showSticky && <StickyNavbar menuCLik={menuCLik} />}
+
     <nav className="relative max-w-6xl mx-auto px-4 pt-10 md:px-10 font-lato">
       <div className="flex items-center justify-between bg-white p-2 rounded-sm text-xl font-medium pl-2 lg:pl-12">
         <div>
-          <Menu onClick={menuCLik} className="w-6 block xl:hidden" />
+          <Menu onClick={menuCLik} className="w-6 block lg:hidden" />
           <ul className="hidden items-center gap-10 lg:flex">
             <li>
               <a
-                className="hover:border-b-2 hover:border-secondary hover:text-secondary"
+                className="hover:text-secondary"
                 href=""
               >
                 Home
@@ -19,7 +42,7 @@ const Navbar = ({ menuCLik }) => {
             </li>
             <li>
               <a
-                className="hover:border-b-2 hover:border-secondary hover:text-secondary"
+                className="hover:text-secondary"
                 href=""
               >
                 About
@@ -27,7 +50,7 @@ const Navbar = ({ menuCLik }) => {
             </li>
             <li>
               <a
-                className="hover:border-b-2 hover:border-secondary hover:text-secondary"
+                className="hover:text-secondary"
                 href=""
               >
                 Features
@@ -39,7 +62,7 @@ const Navbar = ({ menuCLik }) => {
           <ul className="hidden items-center gap-10 lg:flex">
             <li>
               <a
-                className="hover:border-b-2 hover:border-secondary hover:text-secondary"
+                className="hover:text-secondary"
                 href=""
               >
                 Screenshot
@@ -47,7 +70,7 @@ const Navbar = ({ menuCLik }) => {
             </li>
             <li>
               <a
-                className="hover:border-b-2 hover:border-secondary hover:text-secondary"
+                className="hover:text-secondary"
                 href=""
               >
                 Blog
@@ -64,6 +87,7 @@ const Navbar = ({ menuCLik }) => {
         <h1 className="font-bold text-lg md:text-2xl">APPOLLY</h1>
       </div>
     </nav>
+    </div>
   );
 };
 

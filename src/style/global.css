@@ -8,3 +8,11 @@
     --font-lato: "Lato", sans-serif;
     --color-sidebar: #00000080;
 }
+
+.pagination-swiper {
+  padding-bottom: 60px !important;
+}
+
+.pagination-swiper .swiper-pagination {
+  bottom: 0px !important;
+}
