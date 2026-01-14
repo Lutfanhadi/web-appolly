@@ -7,6 +7,7 @@
     --color-paragraf: #6C6C72;
     --font-lato: "Lato", sans-serif;
     --color-sidebar: #00000080;
+    --breakpoint-xs: 330px;
 }
 
 .pagination-swiper {

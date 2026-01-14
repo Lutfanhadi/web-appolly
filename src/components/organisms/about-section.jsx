@@ -5,7 +5,7 @@ import { CardAbout1, CardAbout2, CardAbout3 } from "../moleculs/card-about";
 
 const AboutSection = () => {
     return (
-      <section className="font-lato py-20 md:py-28">
+      <section className="font-lato py-20 md:py-28" id="about">
         <TitleParent
           title={"About Our App"}
           paragraf={

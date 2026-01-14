@@ -5,7 +5,10 @@ import { Comment, Browser, EyeScanner, MaleTelemarketer, SmartPhone, Vector } fr
 const AppFeaturesSection = () => {
     return (
       <section>
-        <div className="w-full h-fit bg-[url(/img/Background-img.png)] bg-cover bg-center py-20 md:py-28">
+        <div
+          className="w-full h-fit bg-[url(/img/Background-img.png)] bg-cover bg-center py-20 md:py-28"
+          id="features"
+        >
           <TitleParent
             textColor={false}
             title={"App features"}

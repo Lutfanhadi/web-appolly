@@ -3,7 +3,7 @@ import { CardOurRecentBlog1, CardOurRecentBlog2, CardOurRecentBlog3 } from "../m
 
 const OurRecentBlogSection = () => {
     return (
-      <section className="py-20 md:py-28">
+      <section className="py-20 md:py-28" id="blog">
         <TitleParent
           title={"Our recent blog"}
           paragraf={
