@@ -53,17 +53,36 @@ const Navbar = ({ menuCLik }) => {
           <div>
             <Menu onClick={menuCLik} className="block w-3 xs:w-6 lg:hidden" />
             <ul className="hidden items-center gap-10 lg:flex">
-              <Link className={linkClass("home")} to="/">Home</Link>
-              <Link className={linkClass("about")} to="/about">About</Link>
-              <Link className={linkClass("features")} to="/features">Features</Link>
+              <li>
+                <a className={linkClass("home")} href="#home">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a className={linkClass("about")} href="#about">
+                  About
+                </a>
+              </li>
+              <li>
+                <a className={linkClass("features")} href="#features">
+                  Features
+                </a>
+              </li>
             </ul>
           </div>
 
           <div className="flex items-center gap-10">
             <ul className="hidden items-center gap-10 lg:flex">
-              <Link className={linkClass("features")} to="/features">Features</Link>
-              <Link className={linkClass("screenshot")} to="/screenshot">Screenshot</Link>
-              <Link className={linkClass("blog")} to="/blog">Blog</Link>
+              <li>
+                <a className={linkClass("screenshot")} href="#screenshot">
+                  Screenshot
+                </a>
+              </li>
+              <li>
+                <a className={linkClass("blog")} href="#blog">
+                  Blog
+                </a>
+              </li>
             </ul>
 
             <button className="bg-primary hover:bg-secondary rounded-sm text-white font-semibold text-[8px] xs:text-xs py-2 px-1 xs:py-3 xs:px-1.5 md:text-xl">
